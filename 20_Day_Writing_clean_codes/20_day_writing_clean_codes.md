@@ -218,7 +218,7 @@ const person = {
   skills: ['HTML','CSS','JavaScript','React','Node','MongoDB','Python','D3.js'],
   isMarried: true
 }
-for(const key in user) {
+for(const key in person) {
     console.log(key)
 }
 
